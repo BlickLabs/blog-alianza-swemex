@@ -7,7 +7,7 @@ Author: Automattic
 Author URI: https://wordpress.com/themes/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: shoreditch
+Text Domain: blog-alianza-swemex
 Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, rtl-language-support, sticky-post, theme-options, translation-ready
 */
 
@@ -319,7 +319,7 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
   font-style: italic;
 }
 
-/*//--//--//--//--//--Styles of ALianza SweMex--//--//--//--//--//*/
+/*//--//--//--//--//--Styles of Alianza SweMex--//--//--//--//--//*/
 
 .alianza-title-container {
   display: flex;
@@ -464,6 +464,12 @@ article:nth-child(2n) > .alianza-hentry-wrapper-modifier .alianza-entry-header-m
 .content-area .alianza-entry-hero-wrapper {
   padding: 96px 0 0 0;
   width: 100%;
+}
+
+h2, .comment-reply-title, .comments-title {
+  font-size: 1.1875rem !important;
+  font-family: 'SourceSansPro';
+  font-weight: 600;
 }
 
 /*//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//*/
@@ -5568,4 +5574,73 @@ aside.widget-area {
 		padding-top: 6em;
 	}
 
+}
+
+@media screen and (max-width: 876px) {
+  .alianza-title-container {
+    margin-top: 50px;
+  }
+
+  .alianza-content-area-modifier {
+    padding-top: 0!important;
+  }
+
+
+  .alianza-entry-header-modifier {
+    height: 150px;
+    width: 100% !important;
+  }
+
+  article:nth-child(2n) > .alianza-hentry-wrapper-modifier .alianza-entry-header-modifier {
+    width: 100% !important;
+  }
+
+  .alianza-hentry-wrapper-modifier {
+    flex-direction: column !important;
+  }
+
+  .alianza-entry-header-content-container {
+    padding: initial;
+    width: 100% !important;
+  }
+
+  .alianza-entry-header-wrapper-modifier {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 0 !important;
+  }
+
+  .site-content-wrapper .has-post-thumbnail .entry-header {
+    margin-left: 0;
+    margin-top: 70px;
+  }
+
+  .entry-footer.alianza-entry-footer-modifier {
+    margin-left: 0;
+  }
+
+  .hentry {
+    border-bottom: none;
+  }
+
+  article:last-child > .alianza-hentry-wrapper-modifier {
+    margin-bottom: 50px;
+  }
+
+  .content-area .alianza-entry-hero-wrapper {
+    padding: 0 0 0 24px;
+  }
+
+  .alianza-date-single-post-container {
+    margin-right: 0;
+    padding-left: 24px;
+  }
+
+  .alianza-site-content-wrapper-modifier {
+    justify-content: flex-start;
+  }
+
+  .alianza-entry-footer-single {
+    padding-top: 50px;
+  }
 }
