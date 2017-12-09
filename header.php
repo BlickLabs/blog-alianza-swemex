@@ -30,7 +30,7 @@
 
   <nav class="site-navbar site-navbar-blue">
     <div class="site-navbar__desktop-logo-container">
-      <a href="index.html">
+      <a href="https://blicklabs.github.io/project-alianza/index.html">
         <img class="alianza-navbar-logo" src="<?php echo get_template_directory_uri() . '/img/logos/alianza-logo-white.png'?>" alt="Logo Alianza SWE-MEX">
       </a>
     </div>
@@ -39,31 +39,31 @@
         <a class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logos/alianza-logo-white.png' ?>" alt="Logo Alianza SWE-MEX"></a>
       </div>
       <div class="site-navbar__menu alianza-font-SourceSansPro-REGULAR">
-        <a href="index.html" class="site-navbar__menu-link">
+        <a href="https://blicklabs.github.io/project-alianza/index.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
           <span class="alianza-font-SourceSansPro-semi-bold">Inicio</span>
         </a>
-        <a href="soluciones.html" class="site-navbar__menu-link">
+        <a href="https://blicklabs.github.io/project-alianza//soluciones.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
           <span class="alianza-font-SourceSansPro-semi-bold">Soluciones</span>
         </a>
-        <a href="acerca-de-nosotros.html" class="site-navbar__menu-link">
+        <a href="https://blicklabs.github.io/project-alianza/acerca-de-nosotros.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
           <span class="alianza-font-SourceSansPro-semi-bold">Acerca de nosotros</span>
         </a>
-        <a href="" class="site-navbar__menu-link active">
+        <a href="http://blog.alianza-swemex.getmore.mx/" class="site-navbar__menu-link active">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
           <span class="alianza-font-SourceSansPro-semi-bold">Noticias</span>
         </a>
-        <a href="contacto.html" class="site-navbar__menu-link">
+        <a href="https://blicklabs.github.io/project-alianza/contacto.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
@@ -83,7 +83,7 @@
     <div class="hamburger-menu-container" id="menuContainer" data-attribute="">
       <div class="hamburger-menu-header" data-attribute="">
         <div class="" data-attribute="">
-          <a href="" data-attribute="">
+          <a href="https://blicklabs.github.io/project-alianza/index.html" data-attribute="">
             <img class="hamburger-logo" src="<?php echo get_template_directory_uri() . '/img/logos/alianza-logo-white.png' ?>" data-attribute="">
           </a>
         </div>
@@ -92,7 +92,7 @@
         </div>
       </div>
       <div class="hamburger-menu-body" data-attribute="">
-        <a data-attribute="" href="index.html" class="hamburger-menu-link">
+        <a data-attribute="" href="https://blicklabs.github.io/project-alianza/" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
@@ -100,7 +100,7 @@
             <span class="hamburger-text">Inicio</span>
           </div>
         </a>
-        <a data-attribute="" href="plans-services.html" class="hamburger-menu-link">
+        <a data-attribute="" href="https://blicklabs.github.io/project-alianza/soluciones.html" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
@@ -108,7 +108,7 @@
             <span class="hamburger-text">Soluciones</span>
           </div>
         </a>
-        <a data-attribute="" href="solar-benefits.html" class="hamburger-menu-link">
+        <a data-attribute="" href="https://blicklabs.github.io/project-alianza/acerca-de-nosotros.html" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
@@ -116,7 +116,7 @@
             <span class="hamburger-text">Acerca de nosotros</span>
           </div>
         </a>
-        <a data-attribute="" href="projects.html" class="hamburger-menu-link link-active">
+        <a data-attribute="" href="http://blog.alianza-swemex.getmore.mx/" class="hamburger-menu-link link-active">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
@@ -124,7 +124,7 @@
             <span class="hamburger-text">Noticias</span>
           </div>
         </a>
-        <a data-attribute="" href="http://rer.wpmultisite.getmore.mx/" class="hamburger-menu-link">
+        <a data-attribute="" href="https://blicklabs.github.io/project-alianza/contacto.html" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
               <div class="hamburger-stroke"></div>
@@ -140,4 +140,50 @@
     src="https://code.jquery.com/jquery-1.12.4.min.js"
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
     crossorigin="anonymous">
+  </script>
+
+  <script>
+    function showMenu() {
+      document.querySelector('#menuContainer').style.width = '85%';
+      document.querySelector('#hamburgerMenu').style.display = 'none';
+    }
+
+    function hideMenu() {
+      document.querySelector('#menuContainer').style.width = '0%';
+      document.querySelector('#hamburgerMenu').style.display = 'inline';
+    }
+
+    window.addEventListener('click', function(e) {
+      if (!e.target.dataset.hasOwnProperty('attribute')) {
+        hideMenu();
+      }
+    });
+
+    /*Events of touchstart to mobile version*/
+
+    var showHamburger = document.querySelector('#hamburgerMenu');
+
+    showHamburger.addEventListener('touchstart', function(e) {
+      e.preventDefault();
+      showMenu();
+    });
+
+    var hideHamburger = document.querySelector('#hideHamburger');
+
+    hideHamburger.addEventListener('touchstart', function(e) {
+      e.preventDefault();
+      hideMenu();
+    });
+
+    /* Events of click to desktop version*/
+
+    showHamburger.addEventListener('click', function(e) {
+      e.preventDefault();
+      showMenu();
+    });
+
+    hideHamburger.addEventListener('click', function(e) {
+      e.preventDefault();
+      hideMenu();
+    });
   </script>

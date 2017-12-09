@@ -73,3 +73,21 @@
   color: #fc0;
   font-weight: 700;
 }
+
+@media screen and (max-width: 876px) {
+  .footer-separator {
+    width: 80%;
+  }
+
+  .footer-links-container {
+    flex-direction: column;
+  }
+
+  .footer-link-separator {
+    display: none;
+  }
+
+  .footer-link-text {
+    line-height: 20px;
+  }
+}
