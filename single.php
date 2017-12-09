@@ -18,7 +18,7 @@ get_header(); ?>
 	?>
 
 	<div class="site-content-wrapper alianza-site-content-wrapper-modifier">
-    <div>
+    <div style="display: none;">
       <h1 class="alianza-post-id alianza-font-SourceSansPro-semi-bold no-margin-text">/<?php echo $post->ID ?>
       </h1>
     </div>
