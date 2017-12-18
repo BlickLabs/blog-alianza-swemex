@@ -348,6 +348,7 @@ Tags: blue, white, light, two-columns, right-sidebar, responsive-layout, custom-
 .alianza-content-area-modifier {
   padding-right: 0 !important;
   padding-top: 71px !important;
+  padding-bottom: 0 !important;
   width: 100% !important;
 }
 
@@ -374,7 +375,6 @@ article:nth-child(2n) > .alianza-hentry-wrapper-modifier .alianza-entry-header-m
 }
 
 .alianza-entry-header-wrapper-modifier {
-  align-items: flex-end;
   display: flex;
   flex-direction: row;
   padding: 9px 0 15px 0 !important;
@@ -399,11 +399,15 @@ article:nth-child(2n) > .alianza-hentry-wrapper-modifier .alianza-entry-header-m
 .entry-footer.alianza-entry-footer-modifier {
   line-height: 22px;
   margin-left: 20px;
+  margin-top: 2px;
 }
 
 .alianza-entry-content-modifier {
-  color: #4a4a4a;
-  font-size: 1rem
+  color: #4a4a4a !important;
+  font-family: 'SourceSansPro' !important;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .entry-footer .comments-link,
@@ -470,6 +474,10 @@ h2, .comment-reply-title, .comments-title {
   font-size: 1.1875rem !important;
   font-family: 'SourceSansPro';
   font-weight: 600;
+}
+
+.entry-title-content-mofifier {
+  max-width: 305px;
 }
 
 /*//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//*/
@@ -4044,11 +4052,6 @@ aside.widget-area {
 		padding: 3em 3em 0;
 	}
 
-	.site-footer {
-		padding-bottom: 3em;
-		padding-top: 3em;
-	}
-
 	.widget-footer-area {
 		padding-top: 3em;
 	}
@@ -5578,7 +5581,7 @@ aside.widget-area {
 
 @media screen and (max-width: 876px) {
   .alianza-title-container {
-    margin-top: 50px;
+    margin-top: 85px;
   }
 
   .alianza-content-area-modifier {
