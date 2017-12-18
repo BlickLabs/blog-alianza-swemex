@@ -31,7 +31,7 @@
       </div>
 		  <div class="entry-header-wrapper alianza-entry-header-wrapper-modifier">
 <?php
-	the_title( '<h2 class="entry-title"><a class="alianza-entry-title-posts alianza-font-SourceSansPro-semi-bold" href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+	the_title( '<h2 class="entry-title entry-title-content-mofifier"><a class="alianza-entry-title-posts alianza-font-SourceSansPro-semi-bold" href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
  ?>
       <footer class="entry-footer alianza-entry-footer-modifier alianza-font-SourceSansPro-regular-italic">
         <?php shoreditch_entry_footer(); ?>
