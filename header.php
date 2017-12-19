@@ -31,28 +31,28 @@
 
   <nav class="site-navbar site-navbar-blue">
     <div class="site-navbar__desktop-logo-container">
-      <a href="https://blicklabs.github.io/project-alianza/index.html">
+      <a href="http://alianzaswemex.com/index.html">
         <img class="alianza-navbar-logo" src="<?php echo get_template_directory_uri() . '/img/logos/new-alianza-logo-white.png'?>" alt="Logo Alianza SWE-MEX">
       </a>
     </div>
     <div class="site-navbar__menu-container">
       <div class="site-navbar__mobile-logo-container">
-        <a class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logos/new-alianza-logo-white.png' ?>" alt="Logo Alianza SWE-MEX"></a>
+        <a class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logos/new-alianza-logo-white.png' ?>" alt="Logo Alianza SWE-MEX" href="http://alianzaswemex.com/index.html"></a>
       </div>
       <div class="site-navbar__menu alianza-font-SourceSansPro-REGULAR">
-        <a href="https://blicklabs.github.io/project-alianza/index.html" class="site-navbar__menu-link">
+        <a href="http://alianzaswemex.com/index.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
           <span class="alianza-font-SourceSansPro-semi-bold">Inicio</span>
         </a>
-        <a href="https://blicklabs.github.io/project-alianza//soluciones.html" class="site-navbar__menu-link">
+        <a href="http://alianzaswemex.com/soluciones.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
           <span class="alianza-font-SourceSansPro-semi-bold">Soluciones</span>
         </a>
-        <a href="https://blicklabs.github.io/project-alianza/acerca-de-nosotros.html" class="site-navbar__menu-link">
+        <a href="http://alianzaswemex.com/acerca-de-nosotros.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
@@ -64,7 +64,7 @@
           </div>
           <span class="alianza-font-SourceSansPro-semi-bold">Noticias</span>
         </a>
-        <a href="https://blicklabs.github.io/project-alianza/contacto.html" class="site-navbar__menu-link">
+        <a href="http://alianzaswemex.com/contacto.html" class="site-navbar__menu-link">
           <div class="nav_stroke-container">
             <div class="nav_stroke"></div>
           </div>
