@@ -14,6 +14,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel=”shortcut icon” type=”image/x-icon” href="<?php echo get_template_directory_uri() . '/img/favicon/favicon.png' ?>"/>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/lib/css/bootstrap.min.css' ?>">
@@ -31,12 +32,12 @@
   <nav class="site-navbar site-navbar-blue">
     <div class="site-navbar__desktop-logo-container">
       <a href="https://blicklabs.github.io/project-alianza/index.html">
-        <img class="alianza-navbar-logo" src="<?php echo get_template_directory_uri() . '/img/logos/alianza-logo-white.png'?>" alt="Logo Alianza SWE-MEX">
+        <img class="alianza-navbar-logo" src="<?php echo get_template_directory_uri() . '/img/logos/new-alianza-logo-white.png'?>" alt="Logo Alianza SWE-MEX">
       </a>
     </div>
     <div class="site-navbar__menu-container">
       <div class="site-navbar__mobile-logo-container">
-        <a class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logos/alianza-logo-white.png' ?>" alt="Logo Alianza SWE-MEX"></a>
+        <a class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logos/new-alianza-logo-white.png' ?>" alt="Logo Alianza SWE-MEX"></a>
       </div>
       <div class="site-navbar__menu alianza-font-SourceSansPro-REGULAR">
         <a href="https://blicklabs.github.io/project-alianza/index.html" class="site-navbar__menu-link">
@@ -84,14 +85,14 @@
       <div class="hamburger-menu-header" data-attribute="">
         <div class="" data-attribute="">
           <a href="https://blicklabs.github.io/project-alianza/index.html" data-attribute="">
-            <img class="hamburger-logo" src="<?php echo get_template_directory_uri() . '/img/logos/alianza-logo-white.png' ?>" data-attribute="">
+            <img class="hamburger-logo" src="<?php echo get_template_directory_uri() . '/img/logos/new-alianza-logo-white.png' ?>" data-attribute="">
           </a>
         </div>
         <div class="hamburger-close-container" id="hideHamburger">
           <img class="hamburger-close" src="<?php echo get_template_directory_uri() . '/img/icons/close-menu.png' ?>">
         </div>
       </div>
-      <div class="hamburger-menu-body" data-attribute="">
+      <div class="hamburger-menu-body alianza-font-SourceSansPro-semi-bold" data-attribute="">
         <a data-attribute="" href="https://blicklabs.github.io/project-alianza/" class="hamburger-menu-link">
           <div class="hamburger-link-container">
             <div class="hamburger-stroke-container">
