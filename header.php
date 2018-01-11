@@ -32,12 +32,12 @@
   <nav class="site-navbar site-navbar-blue">
     <div class="site-navbar__desktop-logo-container">
       <a href="http://alianzaswemex.com/index.html">
-        <img class="alianza-navbar-logo" src="<?php echo get_template_directory_uri() . '/img/logos/new-alianza-logo-white.png'?>" alt="Logo Alianza SWE-MEX">
+        <img class="alianza-navbar-logo" src="<?php echo get_template_directory_uri() . '/img/logos/alianza-logo-white.png'?>" alt="Logo Alianza SWE-MEX">
       </a>
     </div>
     <div class="site-navbar__menu-container">
       <div class="site-navbar__mobile-logo-container">
-        <a class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logos/new-alianza-logo-white.png' ?>" alt="Logo Alianza SWE-MEX" href="http://alianzaswemex.com/index.html"></a>
+        <a class="navbar-logo-mobile" src="<?php echo get_template_directory_uri() . '/img/logos/alianza-logo-white.png' ?>" alt="Logo Alianza SWE-MEX" href="http://alianzaswemex.com/index.html"></a>
       </div>
       <div class="site-navbar__menu alianza-font-SourceSansPro-REGULAR">
         <a href="http://alianzaswemex.com/index.html" class="site-navbar__menu-link">
@@ -85,7 +85,7 @@
       <div class="hamburger-menu-header" data-attribute="">
         <div class="" data-attribute="">
           <a href="https://blicklabs.github.io/project-alianza/index.html" data-attribute="">
-            <img class="hamburger-logo" src="<?php echo get_template_directory_uri() . '/img/logos/new-alianza-logo-white.png' ?>" data-attribute="">
+            <img class="hamburger-logo" src="<?php echo get_template_directory_uri() . '/img/logos/alianza-logo-white.png' ?>" data-attribute="">
           </a>
         </div>
         <div class="hamburger-close-container" id="hideHamburger">

@@ -13,7 +13,7 @@
 <footer class="site-footer">
   <div class="footer-content">
     <a href="http://alianzaswemex.com/index.html">
-      <img class="footer-logo" src="<?php echo get_template_directory_uri() . '/img/logos/new-alianza-logo-white.png' ?>">
+      <img class="footer-logo" src="<?php echo get_template_directory_uri() . '/img/logos/alianza-logo-white.png' ?>">
     </a>
     <div class="footer-separator"></div>
     <div class="footer-links-container">
