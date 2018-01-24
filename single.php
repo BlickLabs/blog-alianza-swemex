@@ -18,10 +18,6 @@ get_header(); ?>
 	?>
 
 	<div class="site-content-wrapper alianza-site-content-wrapper-modifier">
-    <div style="display: none;">
-      <h1 class="alianza-post-id alianza-font-SourceSansPro-semi-bold no-margin-text">/<?php echo $post->ID ?>
-      </h1>
-    </div>
     <div class="alianza-date-single-post-container">
       <footer class="entry-footer alianza-entry-footer-modifier alianza-entry-footer-single alianza-font-SourceSansPro-regular-italic">
         <?php shoreditch_entry_footer(); ?>
