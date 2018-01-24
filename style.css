@@ -398,7 +398,7 @@ article:nth-child(2n) > .alianza-hentry-wrapper-modifier .alianza-entry-header-m
 
 .entry-footer.alianza-entry-footer-modifier {
   line-height: 22px;
-  margin-left: 20px;
+  margin-left: 0;
   margin-top: 2px;
 }
 
@@ -474,10 +474,6 @@ h2, .comment-reply-title, .comments-title {
   font-size: 1.1875rem !important;
   font-family: 'SourceSansPro';
   font-weight: 600;
-}
-
-.entry-title-content-mofifier {
-  max-width: 305px;
 }
 
 /*//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//*/
@@ -5710,4 +5706,8 @@ aside.widget-area {
   .content-area .alianza-entry-hero-wrapper {
     padding-left: 50px;
   }
+}
+
+.posted-on a:hover {
+  box-shadow: none;
 }
