@@ -40,7 +40,7 @@ function shoreditch_entry_footer() {
 			esc_html( get_the_modified_date() )
 		);
 
-		$posted_on = sprintf( '<a href="%1$s" rel="bookmark">%2$s</a>', esc_url( get_permalink() ), $time_string );
+		$posted_on = sprintf( '<a rel="bookmark">%2$s</a>', esc_url( get_permalink() ), $time_string );
 
 		if ( is_sticky() && ! is_single() ) {
 			$posted_on = sprintf( '<a href="%1$s" rel="bookmark">%2$s</a>', esc_url( get_permalink() ), esc_html__( 'Featured Post', 'shoreditch' ) );
